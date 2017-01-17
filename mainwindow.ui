@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>798</width>
+    <height>729</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <widget class="QLabel" name="QRString">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>368</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>    二维码信息</string>
+    </property>
+    <property name="buddy">
+     <cstring>lineEdit</cstring>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_1">
+    <property name="geometry">
+     <rect>
+      <x>51</x>
+      <y>339</y>
+      <width>69</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="maxVisibleItems">
+     <number>5</number>
+    </property>
+    <item>
+     <property name="text">
+      <string>白细胞 0 cell/ul</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>白细胞 8 cell/ul</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>白细胞 15 cell/ul</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>白细胞 40 cell/ul</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>白细胞 70 cell/ul</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>白细胞 125 cell/ul</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>白细胞 300 cell/ul</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>白细胞 500 cell/ul</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>126</x>
+      <y>339</y>
+      <width>69</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="maxVisibleItems">
+     <number>5</number>
+    </property>
+    <item>
+     <property name="text">
+      <string>亚硝酸盐 阴性</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>亚硝酸盐 阳性</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>亚硝酸盐 重症1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>亚硝酸盐 重症2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>亚硝酸盐 重症3</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_7">
+    <property name="geometry">
+     <rect>
+      <x>51</x>
+      <y>391</y>
+      <width>69</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="maxVisibleItems">
+     <number>5</number>
+    </property>
+    <item>
+     <property name="text">
+      <string>尿比重 1.000</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>尿比重 1.005</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>尿比重 1.010</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>尿比重 1.015</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>尿比重 1.020</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>尿比重 1.025</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>尿比重 1.030</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="generateButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>450</y>
+      <width>141</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="text">
+     <string>生成图片</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>198</x>
+      <y>365</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_6">
+    <property name="geometry">
+     <rect>
+      <x>276</x>
+      <y>365</y>
+      <width>69</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="maxVisibleItems">
+     <number>5</number>
+    </property>
+    <item>
+     <property name="text">
+      <string>潜血 阴性</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>潜血 10非溶血</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>潜血 10溶血</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>潜血 25 cell/ul</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>潜血 80 cell/ul</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>潜血 170 cell/ul</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>潜血 250 cell/ul</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_8">
+    <property name="geometry">
+     <rect>
+      <x>276</x>
+      <y>391</y>
+      <width>69</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="maxVisibleItems">
+     <number>5</number>
+    </property>
+    <item>
+     <property name="text">
+      <string>酮体 阴性</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>酮体 0.5 nmol/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>酮体 1.5 nmol/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>酮体 3.0 nmol/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>酮体 4.0 nmol/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>酮体 8.0 nmol/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>酮体 12 nmol/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>酮体 16 nmol/l</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_9">
+    <property name="geometry">
+     <rect>
+      <x>51</x>
+      <y>420</y>
+      <width>69</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="maxVisibleItems">
+     <number>5</number>
+    </property>
+    <item>
+     <property name="text">
+      <string>胆红素 阴性</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>胆红素 5 nmol/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>胆红素 10 nmol/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>胆红素 15 nmol/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>胆红素 30 nmol/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>胆红素 60 nmol/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>胆红素 110 nmol/l</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_3">
+    <property name="geometry">
+     <rect>
+      <x>201</x>
+      <y>339</y>
+      <width>69</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="maxVisibleItems">
+     <number>5</number>
+    </property>
+    <item>
+     <property name="text">
+      <string>尿胆原 3.2 umol/L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>尿胆原 9 umol/L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>尿胆原 16 umol/L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>尿胆原 24 umol/L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>尿胆原 32 umol/L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>尿胆原 64 umol/L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>尿胆原 92 umol/L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>尿胆原 128 umol/L</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_5">
+    <property name="geometry">
+     <rect>
+      <x>51</x>
+      <y>365</y>
+      <width>69</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="maxVisibleItems">
+     <number>5</number>
+    </property>
+    <item>
+     <property name="text">
+      <string>PH 5.0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>PH 5.5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>PH 6.0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>PH 6.5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>PH 7.0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>PH 7.5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>PH 8.0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>PH 8.5</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_4">
+    <property name="geometry">
+     <rect>
+      <x>276</x>
+      <y>339</y>
+      <width>69</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="maxVisibleItems">
+     <number>5</number>
+    </property>
+    <item>
+     <property name="text">
+      <string>蛋白质 阴性</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>蛋白质 微量</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>蛋白质 0.3 g/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>蛋白质 0.5 g/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>蛋白质 1 g/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>蛋白质 3 g/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>蛋白质 20+ g/l</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_10">
+    <property name="geometry">
+     <rect>
+      <x>126</x>
+      <y>420</y>
+      <width>69</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="maxVisibleItems">
+     <number>5</number>
+    </property>
+    <item>
+     <property name="text">
+      <string>葡萄糖 阴性</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>葡萄糖 5 nmol/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>葡萄糖 10 nmol/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>葡萄糖 15 nmol/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>葡萄糖 30 nmol/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>葡萄糖 60 nmol/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>葡萄糖 110 nmol/l</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_11">
+    <property name="geometry">
+     <rect>
+      <x>201</x>
+      <y>420</y>
+      <width>69</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="maxVisibleItems">
+     <number>5</number>
+    </property>
+    <item>
+     <property name="text">
+      <string>抗坏血酸 阴性</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>抗坏血酸 0.5 nmol/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>抗坏血酸 1.0 nmol/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>抗坏血酸 1.4 nmol/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>抗坏血酸 2.0 nmol/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>抗坏血酸 2.8 nmol/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>抗坏血酸 3.6 nmol/l</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_12">
+    <property name="geometry">
+     <rect>
+      <x>276</x>
+      <y>420</y>
+      <width>69</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="maxVisibleItems">
+     <number>5</number>
+    </property>
+    <item>
+     <property name="text">
+      <string>钙 1.0 nmol/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>钙 2.5 nmol/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>钙 4.0 nmol/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>钙 5.0 nmol/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>钙 6.0 nmol/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>钙 7.5 nmol/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>钙 12.5 nmol/l</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>钙 15 nmol/l</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="_1leukocyte">
+    <property name="geometry">
+     <rect>
+      <x>72</x>
+      <y>32</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="_2nitrite">
+    <property name="geometry">
+     <rect>
+      <x>132</x>
+      <y>32</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="_3urobilinogen">
+    <property name="geometry">
+     <rect>
+      <x>192</x>
+      <y>32</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="_4protein">
+    <property name="geometry">
+     <rect>
+      <x>252</x>
+      <y>32</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="_5calcium">
+    <property name="geometry">
+     <rect>
+      <x>72</x>
+      <y>50</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="QRcode">
+    <property name="geometry">
+     <rect>
+      <x>132</x>
+      <y>50</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="_9amylaceum">
+    <property name="geometry">
+     <rect>
+      <x>72</x>
+      <y>86</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="_10bilirubin">
+    <property name="geometry">
+     <rect>
+      <x>132</x>
+      <y>86</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="_11acetone_bodies">
+    <property name="geometry">
+     <rect>
+      <x>192</x>
+      <y>86</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="_8occult_blood">
+    <property name="geometry">
+     <rect>
+      <x>252</x>
+      <y>68</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="_12specific_gravity_of_urine">
+    <property name="geometry">
+     <rect>
+      <x>252</x>
+      <y>86</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="_7vitaminC">
+    <property name="geometry">
+     <rect>
+      <x>72</x>
+      <y>68</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="_6PH">
+    <property name="geometry">
+     <rect>
+      <x>252</x>
+      <y>50</y>
+      <width>54</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="saveButton">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>450</y>
+      <width>151</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>保存图片</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="directory">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>500</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>D:/</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="selectButton">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>490</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>选择保存路径</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>798</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
