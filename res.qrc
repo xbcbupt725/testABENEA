@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/new/pic">
+        <file>qr.bmp</file>
+        <file>lena1.jpg</file>
+        <file>lena2.jpg</file>
+        <file>lena3.jpg</file>
+        <file>lena4.jpg</file>
+        <file>lena5.jpg</file>
+        <file>lena6.jpg</file>
+        <file>lena7.jpg</file>
+        <file>lena8.jpg</file>
+        <file>lena9.jpg</file>
+        <file>lena10.jpg</file>
+        <file>lena11.jpg</file>
+        <file>lena12.jpg</file>
+    </qresource>
+</RCC>
